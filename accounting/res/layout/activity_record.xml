@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#ffecedef" >
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:id="@+id/dqrq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="当前日期:"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/et_cur_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="2012-11-27"
+            android:textSize="19sp" />
+    </LinearLayout>
+    <!-- 消费类型 -->
+
+    <LinearLayout
+        android:id="@+id/xflx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="消费类型:"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/record_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/shzc" 
+            android:entries="@array/styles"/>
+    </LinearLayout>
+
+    <!-- 消费金额 -->
+
+    <LinearLayout
+        android:id="@+id/xfje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="消费金额:"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_record_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:hint="请输入金额"
+            android:inputType="numberDecimal"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <!-- 保存按钮 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            
+            android:background="@drawable/btn_selector"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

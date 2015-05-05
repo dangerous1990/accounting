@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffecedef"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+    <include layout="@layout/activity_title" />
+    <!-- 预算界面 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff" >
+
+            <!-- 左半部分 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_index_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="本月已超支!!!"
+                    android:textColor="#ff0000"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tv_index_ze"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:text="预算总额：￥123.45"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_index_zc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:text="支出总额：￥123.45"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_index_ye"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:text="预算余额：￥123.45"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 右半部分 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#ccddeeff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_curr_year_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="2012年11月"
+                android:textColor="#ff0000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_curr_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="29"
+                android:textColor="#ff0000"
+                android:textSize="70sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 按钮界面 -->
+
+    <Button
+        android:id="@+id/btn_start_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_selector"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="记一笔账"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <!-- 1 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fist_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今天"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_today_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="-￥123.45"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/submenu_normal" />
+        </LinearLayout>
+        <!-- 2 -->
+
+        <LinearLayout
+            android:id="@+id/linear_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/middle_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本周"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_week_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="-￥123.45"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/submenu_normal" />
+        </LinearLayout>
+        <!-- 3 -->
+
+        <LinearLayout
+            android:id="@+id/linear_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/last_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本月"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_month_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="-￥123.45"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/submenu_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
