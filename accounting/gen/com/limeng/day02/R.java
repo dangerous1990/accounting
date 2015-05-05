@@ -348,65 +348,64 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int btn_pressed=0x7f020002;
         public static final int btn_selector=0x7f020003;
         public static final int fist_selector=0x7f020004;
-        public static final int ic_action_search=0x7f020005;
-        public static final int ic_back_normal=0x7f020006;
-        public static final int ic_back_pressed=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int ic_listitem_bg_2=0x7f020009;
-        public static final int ic_listitem_bg_first_normal=0x7f02000a;
-        public static final int ic_listitem_bg_first_pressed=0x7f02000b;
-        public static final int ic_listitem_bg_last_normal=0x7f02000c;
-        public static final int ic_listitem_bg_last_pressed=0x7f02000d;
-        public static final int ic_listitem_bg_normal=0x7f02000e;
-        public static final int ic_listitem_bg_pressed=0x7f02000f;
-        public static final int ic_listitem_bg_single_normal=0x7f020010;
-        public static final int ic_listitem_bg_single_pressed=0x7f020011;
-        public static final int icon_1=0x7f020012;
-        public static final int icon_2=0x7f020013;
-        public static final int icon_3=0x7f020014;
-        public static final int icon_4=0x7f020015;
-        public static final int icon_5=0x7f020016;
-        public static final int icon_6=0x7f020017;
-        public static final int icon_7=0x7f020018;
-        public static final int icon_8=0x7f020019;
-        public static final int icon_9=0x7f02001a;
-        public static final int icon_home_nor=0x7f02001b;
-        public static final int icon_home_sel=0x7f02001c;
-        public static final int icon_meassage_nor=0x7f02001d;
-        public static final int icon_meassage_sel=0x7f02001e;
-        public static final int icon_more_nor=0x7f02001f;
-        public static final int icon_more_sel=0x7f020020;
-        public static final int icon_selfinfo_nor=0x7f020021;
-        public static final int icon_selfinfo_sel=0x7f020022;
-        public static final int icon_square_nor=0x7f020023;
-        public static final int icon_square_sel=0x7f020024;
-        public static final int item_budget_selector=0x7f020025;
-        public static final int last_selector=0x7f020026;
-        public static final int maintab_toolbar_bg=0x7f020027;
-        public static final int middle_selector=0x7f020028;
-        public static final int more_about=0x7f020029;
-        public static final int more_exit=0x7f02002a;
-        public static final int more_feedback=0x7f02002b;
-        public static final int more_help=0x7f02002c;
-        public static final int more_queryonline=0x7f02002d;
-        public static final int more_setting=0x7f02002e;
-        public static final int submenu_normal=0x7f02002f;
-        public static final int sy_bg5=0x7f020030;
-        public static final int tab_btn_bg_d=0x7f020031;
-        public static final int tab_btn_home_selector=0x7f020032;
-        public static final int tab_btn_message_selector=0x7f020033;
-        public static final int tab_btn_more_selector=0x7f020034;
-        public static final int tab_btn_self_selector=0x7f020035;
-        public static final int tab_btn_squre_selector=0x7f020036;
-        public static final int top_bg=0x7f020037;
-        public static final int tv_back_selector=0x7f020038;
-        public static final int vpi__tab_indicator=0x7f020039;
-        public static final int vpi__tab_selected_focused_holo=0x7f02003a;
-        public static final int vpi__tab_selected_holo=0x7f02003b;
-        public static final int vpi__tab_selected_pressed_holo=0x7f02003c;
-        public static final int vpi__tab_unselected_focused_holo=0x7f02003d;
-        public static final int vpi__tab_unselected_holo=0x7f02003e;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02003f;
+        public static final int ic_back_normal=0x7f020005;
+        public static final int ic_back_pressed=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int ic_listitem_bg_2=0x7f020008;
+        public static final int ic_listitem_bg_first_normal=0x7f020009;
+        public static final int ic_listitem_bg_first_pressed=0x7f02000a;
+        public static final int ic_listitem_bg_last_normal=0x7f02000b;
+        public static final int ic_listitem_bg_last_pressed=0x7f02000c;
+        public static final int ic_listitem_bg_normal=0x7f02000d;
+        public static final int ic_listitem_bg_pressed=0x7f02000e;
+        public static final int ic_listitem_bg_single_normal=0x7f02000f;
+        public static final int ic_listitem_bg_single_pressed=0x7f020010;
+        public static final int icon_1=0x7f020011;
+        public static final int icon_2=0x7f020012;
+        public static final int icon_3=0x7f020013;
+        public static final int icon_4=0x7f020014;
+        public static final int icon_5=0x7f020015;
+        public static final int icon_6=0x7f020016;
+        public static final int icon_7=0x7f020017;
+        public static final int icon_8=0x7f020018;
+        public static final int icon_9=0x7f020019;
+        public static final int icon_home_nor=0x7f02001a;
+        public static final int icon_home_sel=0x7f02001b;
+        public static final int icon_meassage_nor=0x7f02001c;
+        public static final int icon_meassage_sel=0x7f02001d;
+        public static final int icon_more_nor=0x7f02001e;
+        public static final int icon_more_sel=0x7f02001f;
+        public static final int icon_selfinfo_nor=0x7f020020;
+        public static final int icon_selfinfo_sel=0x7f020021;
+        public static final int icon_square_nor=0x7f020022;
+        public static final int icon_square_sel=0x7f020023;
+        public static final int item_budget_selector=0x7f020024;
+        public static final int last_selector=0x7f020025;
+        public static final int maintab_toolbar_bg=0x7f020026;
+        public static final int middle_selector=0x7f020027;
+        public static final int more_about=0x7f020028;
+        public static final int more_exit=0x7f020029;
+        public static final int more_feedback=0x7f02002a;
+        public static final int more_help=0x7f02002b;
+        public static final int more_queryonline=0x7f02002c;
+        public static final int more_setting=0x7f02002d;
+        public static final int submenu_normal=0x7f02002e;
+        public static final int sy_bg5=0x7f02002f;
+        public static final int tab_btn_bg_d=0x7f020030;
+        public static final int tab_btn_home_selector=0x7f020031;
+        public static final int tab_btn_message_selector=0x7f020032;
+        public static final int tab_btn_more_selector=0x7f020033;
+        public static final int tab_btn_self_selector=0x7f020034;
+        public static final int tab_btn_squre_selector=0x7f020035;
+        public static final int top_bg=0x7f020036;
+        public static final int tv_back_selector=0x7f020037;
+        public static final int vpi__tab_indicator=0x7f020038;
+        public static final int vpi__tab_selected_focused_holo=0x7f020039;
+        public static final int vpi__tab_selected_holo=0x7f02003a;
+        public static final int vpi__tab_selected_pressed_holo=0x7f02003b;
+        public static final int vpi__tab_unselected_focused_holo=0x7f02003c;
+        public static final int vpi__tab_unselected_holo=0x7f02003d;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f02003e;
     }
     public static final class id {
         public static final int aboutus=0x7f04003b;
@@ -556,8 +555,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CirclePageIndicator_android_background com.limeng.day02:android_background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_android_orientation com.limeng.day02:android_orientation}</code></td><td> Orientation of the indicator.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td> Orientation of the indicator.</td></tr>
            <tr><td><code>{@link #CirclePageIndicator_centered com.limeng.day02:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
            <tr><td><code>{@link #CirclePageIndicator_fillColor com.limeng.day02:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
            <tr><td><code>{@link #CirclePageIndicator_pageColor com.limeng.day02:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
@@ -585,16 +584,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>
           @attr description
            View background 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_background}.
-          @attr name android:android_background
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
         */
         public static final int CirclePageIndicator_android_background = 1;
         /**
           <p>
           @attr description
            Orientation of the indicator. 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_orientation}.
-          @attr name android:android_orientation
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#orientation}.
+          @attr name android:orientation
         */
         public static final int CirclePageIndicator_android_orientation = 0;
         /**
@@ -610,7 +611,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:centered
+          @attr name com.limeng.day02:centered
         */
         public static final int CirclePageIndicator_centered = 2;
         /**
@@ -627,7 +628,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillColor
+          @attr name com.limeng.day02:fillColor
         */
         public static final int CirclePageIndicator_fillColor = 4;
         /**
@@ -644,7 +645,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:pageColor
+          @attr name com.limeng.day02:pageColor
         */
         public static final int CirclePageIndicator_pageColor = 5;
         /**
@@ -662,7 +663,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:radius
+          @attr name com.limeng.day02:radius
         */
         public static final int CirclePageIndicator_radius = 6;
         /**
@@ -678,7 +679,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:snap
+          @attr name com.limeng.day02:snap
         */
         public static final int CirclePageIndicator_snap = 7;
         /**
@@ -695,7 +696,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:strokeColor
+          @attr name com.limeng.day02:strokeColor
         */
         public static final int CirclePageIndicator_strokeColor = 8;
         /**
@@ -713,7 +714,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:strokeWidth
+          @attr name com.limeng.day02:strokeWidth
         */
         public static final int CirclePageIndicator_strokeWidth = 3;
         /** Attributes that can be used with a LinePageIndicator.
@@ -722,7 +723,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LinePageIndicator_android_background com.limeng.day02:android_background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
            <tr><td><code>{@link #LinePageIndicator_centered com.limeng.day02:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
            <tr><td><code>{@link #LinePageIndicator_gapWidth com.limeng.day02:gapWidth}</code></td><td> Width of the gap between each indicator line.</td></tr>
            <tr><td><code>{@link #LinePageIndicator_lineWidth com.limeng.day02:lineWidth}</code></td><td> Width of each indicator line.</td></tr>
@@ -746,8 +747,9 @@ containing a value of this type.
           <p>
           @attr description
            View background 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_background}.
-          @attr name android:android_background
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
         */
         public static final int LinePageIndicator_android_background = 0;
         /**
@@ -763,7 +765,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:centered
+          @attr name com.limeng.day02:centered
         */
         public static final int LinePageIndicator_centered = 1;
         /**
@@ -781,7 +783,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gapWidth
+          @attr name com.limeng.day02:gapWidth
         */
         public static final int LinePageIndicator_gapWidth = 6;
         /**
@@ -799,7 +801,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:lineWidth
+          @attr name com.limeng.day02:lineWidth
         */
         public static final int LinePageIndicator_lineWidth = 5;
         /**
@@ -816,7 +818,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:selectedColor
+          @attr name com.limeng.day02:selectedColor
         */
         public static final int LinePageIndicator_selectedColor = 2;
         /**
@@ -834,7 +836,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:strokeWidth
+          @attr name com.limeng.day02:strokeWidth
         */
         public static final int LinePageIndicator_strokeWidth = 3;
         /**
@@ -851,7 +853,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:unselectedColor
+          @attr name com.limeng.day02:unselectedColor
         */
         public static final int LinePageIndicator_unselectedColor = 4;
         /** Attributes that can be used with a TitlePageIndicator.
@@ -860,9 +862,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_background com.limeng.day02:android_background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_textColor com.limeng.day02:android_textColor}</code></td><td> Color of regular titles.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_textSize com.limeng.day02:android_textSize}</code></td><td> Size of title text.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td> Color of regular titles.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td> Size of title text.</td></tr>
            <tr><td><code>{@link #TitlePageIndicator_clipPadding com.limeng.day02:clipPadding}</code></td><td> Screen edge padding.</td></tr>
            <tr><td><code>{@link #TitlePageIndicator_footerColor com.limeng.day02:footerColor}</code></td><td> Color of the footer line and indicator.</td></tr>
            <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.limeng.day02:footerIndicatorHeight}</code></td><td> Height of the indicator above the footer line.</td></tr>
@@ -902,24 +904,27 @@ containing a value of this type.
           <p>
           @attr description
            View background 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_background}.
-          @attr name android:android_background
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
         */
         public static final int TitlePageIndicator_android_background = 2;
         /**
           <p>
           @attr description
            Color of regular titles. 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_textColor}.
-          @attr name android:android_textColor
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColor}.
+          @attr name android:textColor
         */
         public static final int TitlePageIndicator_android_textColor = 1;
         /**
           <p>
           @attr description
            Size of title text. 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_textSize}.
-          @attr name android:android_textSize
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textSize}.
+          @attr name android:textSize
         */
         public static final int TitlePageIndicator_android_textSize = 0;
         /**
@@ -937,7 +942,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clipPadding
+          @attr name com.limeng.day02:clipPadding
         */
         public static final int TitlePageIndicator_clipPadding = 4;
         /**
@@ -954,7 +959,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerColor
+          @attr name com.limeng.day02:footerColor
         */
         public static final int TitlePageIndicator_footerColor = 5;
         /**
@@ -972,7 +977,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerIndicatorHeight
+          @attr name com.limeng.day02:footerIndicatorHeight
         */
         public static final int TitlePageIndicator_footerIndicatorHeight = 8;
         /**
@@ -992,7 +997,7 @@ containing a value of this type.
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:footerIndicatorStyle
+          @attr name com.limeng.day02:footerIndicatorStyle
         */
         public static final int TitlePageIndicator_footerIndicatorStyle = 7;
         /**
@@ -1010,7 +1015,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerIndicatorUnderlinePadding
+          @attr name com.limeng.day02:footerIndicatorUnderlinePadding
         */
         public static final int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
         /**
@@ -1028,7 +1033,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerLineHeight
+          @attr name com.limeng.day02:footerLineHeight
         */
         public static final int TitlePageIndicator_footerLineHeight = 6;
         /**
@@ -1046,7 +1051,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerPadding
+          @attr name com.limeng.day02:footerPadding
         */
         public static final int TitlePageIndicator_footerPadding = 10;
         /**
@@ -1065,7 +1070,7 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:linePosition
+          @attr name com.limeng.day02:linePosition
         */
         public static final int TitlePageIndicator_linePosition = 11;
         /**
@@ -1081,7 +1086,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:selectedBold
+          @attr name com.limeng.day02:selectedBold
         */
         public static final int TitlePageIndicator_selectedBold = 12;
         /**
@@ -1098,7 +1103,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:selectedColor
+          @attr name com.limeng.day02:selectedColor
         */
         public static final int TitlePageIndicator_selectedColor = 3;
         /**
@@ -1116,7 +1121,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:titlePadding
+          @attr name com.limeng.day02:titlePadding
         */
         public static final int TitlePageIndicator_titlePadding = 13;
         /**
@@ -1134,7 +1139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:topPadding
+          @attr name com.limeng.day02:topPadding
         */
         public static final int TitlePageIndicator_topPadding = 14;
         /** Attributes that can be used with a UnderlinePageIndicator.
@@ -1143,7 +1148,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_android_background com.limeng.day02:android_background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
            <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.limeng.day02:fadeDelay}</code></td><td> Length of the delay to fade the indicator.</td></tr>
            <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.limeng.day02:fadeLength}</code></td><td> Length of the indicator fade to transparent.</td></tr>
            <tr><td><code>{@link #UnderlinePageIndicator_fades com.limeng.day02:fades}</code></td><td> Whether or not the selected indicator fades.</td></tr>
@@ -1163,8 +1168,9 @@ containing a value of this type.
           <p>
           @attr description
            View background 
-          <p>This corresponds to the global attribute          resource symbol {@link com.limeng.day02.R.attr#android_background}.
-          @attr name android:android_background
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
         */
         public static final int UnderlinePageIndicator_android_background = 0;
         /**
@@ -1180,7 +1186,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeDelay
+          @attr name com.limeng.day02:fadeDelay
         */
         public static final int UnderlinePageIndicator_fadeDelay = 3;
         /**
@@ -1196,7 +1202,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeLength
+          @attr name com.limeng.day02:fadeLength
         */
         public static final int UnderlinePageIndicator_fadeLength = 4;
         /**
@@ -1212,7 +1218,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fades
+          @attr name com.limeng.day02:fades
         */
         public static final int UnderlinePageIndicator_fades = 2;
         /**
@@ -1229,7 +1235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:selectedColor
+          @attr name com.limeng.day02:selectedColor
         */
         public static final int UnderlinePageIndicator_selectedColor = 1;
         /** Attributes that can be used with a ViewPagerIndicator.
@@ -1265,7 +1271,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiCirclePageIndicatorStyle
+          @attr name com.limeng.day02:vpiCirclePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
         /**
@@ -1277,7 +1283,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiIconPageIndicatorStyle
+          @attr name com.limeng.day02:vpiIconPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
         /**
@@ -1289,7 +1295,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiLinePageIndicatorStyle
+          @attr name com.limeng.day02:vpiLinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
         /**
@@ -1301,7 +1307,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiTabPageIndicatorStyle
+          @attr name com.limeng.day02:vpiTabPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
         /**
@@ -1313,7 +1319,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiTitlePageIndicatorStyle
+          @attr name com.limeng.day02:vpiTitlePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
         /**
@@ -1325,7 +1331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:vpiUnderlinePageIndicatorStyle
+          @attr name com.limeng.day02:vpiUnderlinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
     };

@@ -24,7 +24,7 @@
         </activity>
         <activity android:name=".RecordActivity" >
         </activity>
-        <activity android:name=".FragmentTabs" >
+        <activity android:name="com.limeng.day02.FragmentTabs" >
         </activity>
         <activity android:name=".LedgerDayActivity" >
         </activity>
